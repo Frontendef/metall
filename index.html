@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="font/css/font-awesome.min.css">
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+		<title>Relvise</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container _container">
+					<div class="header__body">
+					<span href="" class="header__logo">
+						<!-- <img src="img/logo/Logo.svg" alt=""> -->
+						<img src="img/logo/Mask group.png" alt="">
+					</span>
+
+					<div class="header__tel">
+						
+						<div class="tel">
+							<a href="" class="main-block__button main-block__button_border" id="open_pop_up">Бесплатный просчет</a>
+						</div>
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					  <nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="index.html" class="active">Главная</a>
+							</li>
+							<li class="menu__item">
+								<a  class="menu__link"  class="menu__link">Услуги</a>
+								<span class="menu__arrow arrow"></span>
+						<ul class="sub-menu__list">
+							<li>
+								<a href="" class="sub-menu__link">Плазменная резка</a>
+							</li>
+							<li>
+								<a href="" class="sub-menu__link">Гибка ЧПУ</a>
+								<span class="sub-menu__arrow arrow"></span>
+							
+							</li>
+							<li>
+								<a href="" class="sub-menu__link">Лазерная резка</a>
+							</li>
+							<li>
+								<a href="" class="sub-menu__link">Защитное покрытие</a>
+							</li>
+							<li>
+								<a href="" class="sub-menu__link">Производство</a>
+							</li>
+							<li>
+								<a href="" class="sub-menu__link">Покраска</a>
+							</li>
+						</ul>
+							</li>
+						
+							<li class="menu__item">
+								<a  class="menu__link" href="dostavka.html" class="menu__link">Доставка</a>
+							</li>
+							<li class="menu__item">
+								<a  class="menu__link" href="certificat.html" class="menu__link">Сертификаты</a>
+							</li>
+						
+							<li class="menu__item">
+								<a  class="menu__link" href="contact.html" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+					  </nav>
+					  <div class="header__tel">
+						<span class="tel">
+							+375 29 120 25 19
+						</span>
+					</div>
+				    </div>
+				</div>
+			</header>
+			<main class="page" id="page">
+				<div class="page__main-block main-block">
+					<div class="main-block__container _container">
+						<div class="main-block__body">
+							<h1 class="main-block__title">Лазерная и плазменная резка металла любой сложности в Минске</h1>
+							<div class="main-block__text">
+								Работаем только на современном оборудовании! Цены от 0.9 BYN за метр в срок от 1-го дня 
+							</div>
+							<div class="main-block__buttons">
+								<a href="https://www.youtube.com/watch?v=CwmtOU2_2t0" class="main-block__button main-block__button_orange">Скачать прайс</a>
+								<a href="" class="main-block__button main-block__button_border" id="open_pop_up">Бесплатный просчет</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="pop_up" id="pop_up">
+						<div class="pop_up_container">
+							<div class="pop_up_body" id="pop_up_body">
+			
+								  <form action="#" name="form">
+									<input type="text" 
+									placeholder="Ваше имя"
+									name="name"
+									id="name"
+									data-reg="^[А-ЯЁ][а-яё]*$">
+									<input 
+									type="text" 
+									placeholder="+375 (29) 123 45 67"
+									name="phone"
+									id="phone"
+									data-reg="^((\+7|7|8)+([0-9]){10})$">
+									<textarea 
+									class="form-control"
+									placeholder="Ваше сообщение"
+									name="message"
+									id="message"
+									></textarea>>
+									<!-- data-reg="^[А-ЯЁ][а-яё]*$" -->
+									<!-- <textarea class="form-control"
+									placeholder="Ваше сообщение"
+									name="message"
+									id="message"
+									> -->
+									<button class="atention" id="button">Оставить заказ</button>
+								</form>
+								
+								<div class="pop_up_close" id="pop_up_close">&#10006</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+					<div class="intro__media">
+						<video class="intro__media-video" src="video/video.mp4" autoplay muted loop></video>
+						
+					</div>
+
+
+
+
+<!-- ---------------------------ICON__PORTAL----------------------------------------->
+
+<!-- <div class="port">
+					<div class="arrow one">
+						<a class="portal" href="#portal">
+						<img src="img/ex/down_icon.png" alt="">
+						</a> 
+					  </div>
+					  <div class="arrow two">
+						  <a class="portal" href="#portal">
+						  <img src="img/ex/down_icon.png" alt="">
+						</a>
+					  </div>
+
+					</div> -->
+
+<!-- ----------------------------------------------------------------------------- -->
+
+
+
+				</div>
+				<section class="page__services services" id="service">
+					<div class="services__container _container">
+						<div class="services__body">
+							<div class="services__column" id="portal">
+								<div class="services__item item-service">
+									<div class="item-service__icon">
+									<img src="img/new/obrazec.png" alt="Environmental Consulting"> 
+									</div>
+									<div class="item-service__body">
+
+									<h3 class="item-service__title">Образец бесплатно</h3>
+									<div class="item-service__text">При заказе партии товара - пробный образец бесплатно</div>
+
+								</div>
+								</div>
+							</div>
+							<div class="services__column" >
+								<div class="services__item item-service">
+									<div class="item-service__icon"><img src="img/new/employee_machine_industrial_manufacturing_factory_production_icon_210717.png" alt="Finance and consultancy"></div>
+									<div class="item-service__body">
+									<h3 class="item-service__title">Готовность заказа</h3>
+									<div class="item-service__text">Готовность заказа 3-5 дней</div>
+								</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item item-service item-service_green">
+									<div class="item-service__icon"><img src="img/new/dostavka.png" alt="Financial Services Consulting"></div>
+									<div class="item-service__body">
+									<h3 class="item-service__title">Бесплатная доставка</h3>
+									<div class="item-service__text">Бесплатная доставка по Минску при заказе от 300 BYN</div>
+								</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item item-service item-service_green">
+									<div class="item-service__icon"><img src="img/new/metal.png" alt="Financial Services Consulting"></div>
+									<div class="item-service__body">
+									<h3 class="item-service__title">Современное оборудование</h3>
+									<div class="item-service__text">Работаем со всеми видами металлов</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</section>
+
+
+<section class="page__metall metall">
+	<div class="metall__container _container">
+		<div class="metall__heading heading">
+			<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+			<h3 class="metall__title">Режем любые виды металлов</h3>
+			<h4 class="metall__subtitle">Толщиной до 16мм с точностью до 0.01мм</h4>
+		 </div>
+
+		 <div class="metall__row">
+				  
+			<div class="metall__item">
+				<div class="metall__image">
+			   <img class="metall__image images" src="img/metall/stal.jpg" alt="cup">
+			</div>
+			   <h3 class="metall__subtitle">Сталь</h3>
+			   <p class="metall__para">Толщина до 16мм</p>
+			</div>
+	  
+			<div class="metall__item">
+				<div class="metall__image">
+			   <img class="metall__image images" src="img/metall/nerjave__stal.jpg" alt="heart">
+			</div>
+			   <h3 class="metall__subtitle">Нержавеющая сталь</h3>
+			   <p class="metall__para">Толщина до 8мм</p>
+			</div>
+	  
+			<div class="metall__item">
+				<div class="metall__image">
+			   <img class="metall__image images" src="img/metall/latun.jpg" alt="keks">
+			</div>
+			   <h3 class="metall__subtitle">Латунь</h3>
+			   <p class="metall__para">Толщина до 6мм</p>
+			</div>
+	  
+			<div class="metall__item">
+			  <div class="metall__image">
+			     <img class="metall__image images" src="img/metall/alumini.jpg" alt="lapa">
+			  </div>
+			   <h3 class="metall__subtitle">Алюминий</h3>
+			   <p class="metall__para">Толщина до 10мм</p>
+			</div>
+
+			<div class="metall__item">
+				<div class="metall__image">
+				   <img class="metall__image images" src="img/metall/med.jpg" alt="lapa">
+				</div>
+				 <h3 class="metall__subtitle">Медь</h3>
+				 <p class="metall__para">Толщина до 6мм</p>
+			  </div>
+	  
+		 </div>
+
+
+		</div>
+
+
+	</div>
+</section>
+
+
+<!-- -------------------------------------------------------------------------- -->
+
+<section id="zakaz">
+	<div class="zakaz__container _container">
+		<div class="metall__heading heading">
+			<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+			<h3 class="metall__title">Заказывайте детали любой сложности</h3>
+			<h4 class="metall__subtitle">объём от 1-ой детали!</h4>
+		 </div>
+       <div class="zakaz-box">
+	     <div class="zakaz-features">
+			    <h3 class="metall__h3">Чертежи</h3>
+			    <div class="zakaz__item">
+				       <div class="zakaz-icon">
+					        <i class="fa fa-pencil-square-o"></i>
+			         	</div>
+			                 	<div class="zakaz-icon">
+				                	<p class="zakaz__para">
+				                     	  При необходимости разработаем чертеж!
+				                	</p>
+			                	</div>
+		             	</div>
+
+			             <h3 class="metall__h3">Современное оборудование</h3>
+			                    <div class="zakaz__item">
+			                            	<div class="zakaz-icon">
+				                                  <i class="fa fa-check-square-o"></i>
+				                            </div>
+				                                   <div class="zakaz-icon">
+				                                        	<p class="zakaz__para">
+				                                              	 3000 Х 1500 мм - максимальные габариты обрабатываемых деталей
+				                                        	</p>
+			                                    	</div>
+		                    	</div>
+
+		                   	<h3 class="metall__h3">Режем трубы и трубные модулм</h3>
+			                                   <div class="zakaz__item">
+			                                        	<div class="zakaz-icon">
+			                                                 	  <i class="fa fa-handshake-o"></i>
+			                                         	</div>
+			                                                	<div class="zakaz-icon">
+			                                                    		<p class="zakaz__para">
+			                                                             		Диаметр описанной окружности 10-230мм. Максимальная длина 6000мм.
+				                                                     	</p>
+				                                                </div>
+			                                    </div>
+
+			
+	     </div>
+
+	  <div class="zakaz-img">
+		  <img class="zakaz__pic" src="img/ex/stan.jpg" alt="#">
+	</div>
+  </div>
+</div>
+</section>
+
+
+
+<!-- ----------------------------------------------------------------------- -->
+				<section class="page__help help">
+
+					<div class="help__container _container">
+                          
+					<div class="help__heading heading">
+						<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+						<h3 class="help__title">Чем мы можем Вам помочь</h3>
+						<h4 class="help__subtitle">На нашем ресурсе, мы хотим показать простым и доступным языком, как осуществляется производство деталей от этапа составления ТЗ до сдачи готовых изделий. Определите задачу, а мы ее реализуем в кротчайшие сроки!</h4>
+					 </div>
+				  
+					 <div class="help__row">
+				  
+						<div class="help__item">
+							<div class="cards__image">
+						   <img class="cards__image images" src="img/ex/scheme__1.jpg" alt="cup">
+						</div>
+						   <h3 class="help__subtitle">Сделать чертеж</h3>
+						   <p class="para">Разместить заказ по изготовлению деталей без наличия эскизов или чертежей невозможно, поэтому мы предоставляем услуги разработки чертежей по образцу или Вашему ТЗ</p>
+						</div>
+				  
+						<div class="help__item">
+							<div class="cards__image">
+						   <img class="cards__image images" src="img/ex/detail___2.jpg" alt="heart">
+						</div>
+						   <h3 class="help__subtitle">Изготовить деталь</h3>
+						   <p class="para">Выполним работы по изготовлению деталей из цветных металлов и сплавов. Для своей продукции используем только качественный металлопрокат от проверенных поставщиковю</p>
+						</div>
+				  
+						<div class="help__item">
+							<div class="cards__image">
+						   <img class="cards__image images" src="img/ex/color__3.jpg" alt="keks">
+						</div>
+						   <h3 class="help__subtitle">Нанести защитное покрытие</h3>
+						   <p class="para">Многим изделиям после механической обработки необходимо защитное покрытие для придания эстетического внешнего вида или защиты от коррозии. Мы оказываем услуги по нанесению порошковой покраски и гальванических покрытий.</p>
+						</div>
+				  
+						<div class="help__item">
+                        <div class="cards__image">
+						   <img class="cards__image images" src="img/ex/auto__4.jpg" alt="lapa">
+						</div>
+						   <h3 class="help__subtitle">Собираем конечный заказ и организовываем доставку!</h3>
+						   <p class="para">Чтобы максимально избавить Вас от трудозатрат - изготовим, соберем, упакуем и доставим готовую продукцию в нужную Вам точку.</p>
+						</div>
+				  
+					 </div>
+
+
+					</div>
+				</section>
+				<!-- <section class="page__activity activity">
+
+					<div class="activity__container _container">
+                          
+					<div class="activity__heading heading">
+						<img src="img/new/logo.png" alt="logo">
+						<h3 class="help__title">Отрасли деятельности</h3>
+						<h4 class="help__subtitle">Мы эксперты в своей области!</h4>
+					
+					 </div>
+
+					 <div class="activity__info">
+						<p class="para">Наша компания предлагает только качественный металлопрокат. Мы дорожим своей репутацией, поэтому некондиционный товар или товар 2-го сорта - мы не закупаем и не продаем. Мы сотрудничаем только с проверенными заводами - изготовителями. На всю продукцию имеются заводские сертификаты качества, которые мы можем Вам предоставить по Вашему желанию.</p>
+						<p class="para">Наша компания предлагает только качественный металлопрокат. Мы дорожим своей репутацией, поэтому некондиционный товар или товар 2-го сорта - мы не закупаем и не продаем. Мы сотрудничаем только с проверенными заводами - изготовителями. На всю продукцию имеются заводские сертификаты качества, которые мы можем Вам предоставить по Вашему желанию.</p>
+					 </div>
+				  
+					 <div class="activity__row">
+				  
+						<div class="activity__item">
+							<div class="card__image">
+						   <img class="card__image img" src="img/screen/screen__1.png" alt="cup">
+						</div>
+						  
+						</div>
+				  
+						<div class="activity__item">
+							<div class="card__image">
+						   <img class="card__image img" src="img/screen/screen__2.png" alt="heart">
+						  </div>
+						  
+						</div>
+					</div>
+				</section> -->
+				<section class="page__job job">
+
+					<div class="job__container _container">
+                          
+					<div class="job__heading heading">
+						<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+						<h3 class="job__title">Услуги обработки металла</h3>
+						<h4 class="job__subtitle">Время, скорость, цена? C нами Вам не придётся выбирать!</h4>
+					
+					 </div>
+
+					 <!-- <div class="job__info">
+						<p class="para">Наша компания уже много лет оказывает услуги по изготовлению деталей по чертежам заказчика. Особенно мы преуспели в производстве корпусных деталей. Получая заказ в производство, он в срочном порядке поступает на заготовительный участок, потом в механическую обработку и при необходимости, на некоторые элементы наносятся защитные покрытия.</p>
+					 </div> -->
+				  
+					 <h3 class="job__title">Резка, гибка и сварка металла</h3>
+
+
+					 <div class="job__row">
+				  
+						    <div class="job__item">
+								<div class="job__matr">
+							      <div class="cd__jpg">
+						                 <img class="cd__jpg jpg" src="img/job/eclips/lazer.jpg" alt="cup">
+						          </div>
+							             <div class="card__text">
+							                 	<h4>Лазерная резка</h4>
+							                	<p class="para">Лазерная резка – это технология машинной резки, которая позволяет выполнить раскрой листа любой конфигурации.</p>
+												<button class="pipka">Подробнее</button>
+						            	</div>
+								</div>
+						    </div>
+				  
+						<div class="job__item">
+							        <div class="job__matr">
+							                <div class="cd__jpg">
+						                          <img class="cd__jpg jpg" src="img/job/eclips/plazma.jpg" alt="heart">
+						                    </div>
+						               <div class="card__text">
+						                        	<h4>Плазменная резка</h4>
+							                        <p class="para">Технология резки плазмой дает возможность работать не только с черными металлами, но и нержавейкой и цветным металлопрокатом.</p>
+													<button class="pipka">Подробнее</button>
+						                </div>
+					             </div>
+						</div>
+
+
+						
+					</div>
+
+					<div class="job__tg">
+						<p class="para">Для уточнение ценообразования и актуального прайса на плазменную и лазерную резку перейдите  по ссылке <a href="">ТУТ</a> </p>
+					</div>
+
+
+					<h3 class="job__title">Гибка ЧПУ, производство металлоконструкций</h3>
+
+
+					<div class="job__row">
+				  
+						<div class="job__item">
+							<div class="job__matr">
+							  <div class="cd__jpg">
+									 <img class="cd__jpg jpg" src="img/job/eclips/gibka.jpg" alt="cup">
+							  </div>
+									 <div class="card__text">
+											 <h4>Гибка ЧПУ</h4>
+											<p class="para">Гибка осуществляется без использования сварочного оборудования. Технология позволяет получать объемные заготовки.</p>
+											<button class="pipka">Подробнее</button>
+									</div>
+							</div>
+						</div>
+			  
+					<div class="job__item">
+								<div class="job__matr">
+										<div class="cd__jpg">
+											  <img class="cd__jpg jpg" src="img/job/eclips/metall.jpg" alt="heart">
+										</div>
+								   <div class="card__text">
+												<h4>Собственное производство</h4>
+												<p class="para">Производим металлоконструкции высокого качества и любой сложности. Срок изготовления от 3-х рабочих дней!</p>
+												<button class="pipka">Подробнее</button>
+									</div>
+							 </div>
+					</div>
+
+
+					
+				</div>
+
+				<div class="job__tg">
+					<p class="para">Для уточнение ценообразования и актуального прайса на плазменную и лазерную резку перейдите  по ссылке <a href="">ТУТ</a> </p>
+				</div>
+
+				<h3 class="job__title">Защитные покрытия металлов</h3>
+
+
+					<div class="job__row">
+				  
+						<div class="job__item">
+							<div class="job__matr">
+							  <div class="cd__jpg">
+									 <img class="cd__jpg jpg" src="img/job/eclips/porohok.jpg" alt="cup">
+							  </div>
+									 <div class="card__text">
+											 <h4>Полимерная покраска</h4>
+											<p class="para">Надежный и быстрый способ защиты металлический изделий</p>
+											<button class="pipka">Подробнее</button>
+									</div>
+							</div>
+						</div>
+			  
+					<div class="job__item">
+								<div class="job__matr">
+										<div class="cd__jpg">
+											  <img class="cd__jpg jpg" src="img/job/eclips/galva.jpg" alt="heart">
+										</div>
+								   <div class="card__text">
+												<h4>Гальваника</h4>
+												<p class="para">Нанесение защитного покрытия с целью защиты от коррозии.</p>
+												<button class="pipka">Подробнее</button>
+									</div>
+							 </div>
+					</div>
+
+
+					
+				</div>
+				</section>
+
+				<section class="page__sale sale">
+					<div class="sale__container _container">
+					<h3 class="sale__title">Для постоянных заказчиков</h3>
+					<div class="sale__action">
+						<p class="sale__para">ЦЕНА НА 15-20% ниже</p>
+					</div>
+					<div class="sale__cards">
+<div class="card__one">
+	<div class="card__two">
+	<div class="card__image">
+		<img src="img/action/wondicon-ui-free-parcel_111208.png" alt="">
+	</div>
+	<div class="card__text">
+		<p class="action__text">При больших партиях от 100 шт</p>
+	</div>
+</div>
+</div>
+<div class="card__one">
+	<div class="card__two">
+	<div class="card__image">
+		<img src="img/action/wondicon-ui-free-calender_111212.png" alt="">
+	</div>
+	<div class="card__text">
+		<p class="action__text">При частых заказах (от 1 раза в месяц)</p>
+	</div>
+</div>
+</div>
+<div class="card__one">
+	<div class="card__two">
+	<div class="card__image">
+		<img src="img/action/redo-circular-arrow_icon-icons.com_56886.png" alt="">
+	</div>
+	<div class="card__text">
+		<p class="action__text">При однотипных заказах</p>
+	</div>
+</div>
+</div>
+					</div>
+				</div>
+
+				</section>
+
+
+				<section class="page__benefits benefits">
+					<div class="benefits__container _container">
+						<div class="benefits__heading heading">
+							<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+							<h3 class="benefits__title">Чем мы можем Вам помочь</h3>
+							<h4 class="benefits__subtitle">На нашем ресурсе, мы хотим показать простым и доступным языком</h4>
+						 </div>
+						 <div class="vertical__body">
+							<div class="vertical__row">
+								<div class="vertical__column">
+									<div class="vertical__item">
+										<div class="vertical__subtitle">Собственное производство</div>
+										<div class="vertical__label">Наши станки и оборудование</div>
+										<div class="vertical__text"> <ul class="vertical__ul" >
+											   <li>Станок (полное название станка или оборудования)</li>
+											   <li>Станок </li>
+											   <li>Станок </li>
+											   <li>Станок</li>
+											   <li>Станок</li>
+											   <li>Станок</li>
+																				</ul>
+									 </div>
+									 <a href="tel:+375291202519" class="vertical__btn">+375 29 -- ---- --</a>
+									</div>
+								</div>
+								<div class="vertical__column">
+									<div class="vertical__item">
+										<div class="vertical__subtitle">Оплата после выполнения работ</div>
+										<div class="vertical__label">Постоплата при условии</div>
+										<div class="vertical__text"> <ul class="vertical__ul" >
+											<li>Работы с бюджетом до 500 BYN</li>
+											<li>Подписанный договор</li>
+											<li>Получаем результат с оплатой по факту с доставкой!</li>
+											<!-- <li></li>
+											<li></li>
+											<li></li>
+											<li></li> -->
+									 </ul></div>
+									 <a href="tel:+375291202519" class="vertical__btn">+375 29 -- --- --</a>
+									</div>
+								</div>
+
+								<div class="vertical__column">
+									<div class="vertical__item">
+										<div class="vertical__subtitle">Наши цены лучшие</div>
+										<div class="vertical__label">Пришлите нам КП от другой компании и мы сделаем Вам более выгодное предложение.</div>
+										<div class="vertical__text">
+											<ul class="vertical__ul" >
+												<li>Скидки при получении объемного заказа</li>
+												<li>Оптимизация процесса за счет понимания задачи</li>
+												<!-- <li></li> -->
+
+										 </ul> </div>
+										 <a href="tel:+375291202519" class="vertical__btn">+375 29 -- --- --</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<section class="page__dogovor dogovor">
+					<div class="dogovor__container _container">
+						<div class="dogovor__heading heading">
+							<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+							<h3 class="dogovor__title">Фиксируем в договоре </h3>
+							<h4 class="dogovor__subtitle">стоимость и сроки</h4>
+						 </div>
+
+						 <div class="dogovor-box">
+							<div class="dogovor-features">
+								   <!-- <h3 class="dogovor__h3">Чертежи</h3> -->
+								   <div class="dogovor__item">
+										  <!-- <div class="dogovor-icon">
+											   <i class="fa fa-pencil-square-o"></i>
+											</div> -->
+													<div class="dogovor-icon">
+													   <p class="dogovor__para">
+															  Вы точно получите свой заказ в срок, так как наше производство работает в 2 смены без выходных.
+													   </p>
+												   </div>
+											</div>
+				   
+											<!-- <h3 class="dogovor__h3">Современное оборудование</h3> -->
+												   <div class="dogovor__item">
+															   <!-- <div class="dogovor-icon">
+																	 <i class="fa fa-check-square-o"></i>
+															   </div> -->
+																	  <div class="dogovor-icon">
+																			   <p class="dogovor__para">
+																					 На производстве установлены 2 лазера, которые работают независимо: даже, если один выйдет из строя - реализуем ваш заказ на проект.
+																			   </p>
+																	   </div>
+												   </div>
+				   
+												  <!-- <h3 class="dogovor__h3">Режем трубы и трубные модулм</h3> -->
+																  <div class="dogovor__item">
+																		   <!-- <div class="dogovor-icon">
+																					  <i class="fa fa-handshake-o"></i>
+																			</div> -->
+																				   <div class="dogovor-icon">
+																						   <p class="dogovor__para">
+																									В среднем работа занимает от 3 до 5 дней  и зависит от объема заказа.
+																							</p>
+																				   </div>
+																   </div>
+				   
+							   
+							</div>
+				   
+						 <div class="dogovor-img">
+							 <img class="dogovor__pic" src="img/ex/dogovor.jpg" alt="#">
+					   </div>
+					 </div>
+
+
+
+					</div>
+				</section>
+
+				<section class="page__end end">
+					<div class="end__container _container">
+						<div class="end__heading heading">
+							<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+							<h3 class="end__title">Заберем ваш металл</h3>
+							<h4 class="end__subtitle">Сделаем работу и вернем обратно в любую точку Беларуси в течение 5 дней</h4>
+
+							<div class="end__row">
+								<div class="end__cards">
+                                    <div class="item__first">
+  
+<div class="end__icon">
+	<img src="img/new/dostavka.png" alt="">
+</div>
+
+<div class="end__body">
+	<h3 class="end__h">Доставка по Минску</h3>
+	<p class="end__p">При чеке от 500 BYN доставим в тот же день как изготовим продукцию </p>
+</div>
+
+</div>
+<div class="item__second">
+	<div class="end__icon">
+		<img src="img/new/dostavka.png" alt="">
+	</div>
+	
+	<div class="end__body">
+		<h3 class="end__h">Доставка по РБ</h3>
+		<p class="end__p">В течение 5-ти дней после готовности</p>
+	</div>
+
+</div>
+<div class="item__second">
+	<div class="end__icon">
+		<img src="img/new/dostavka.png" alt="">
+	</div>
+	
+	<div class="end__body">
+		<h3 class="end__h">Самовывоз</h3>
+		<p class="end__p">Можно забрать самостоятельно с нашего склада с 8:00 до 19:00</p>
+	</div>
+
+</div>
+								</div>
+								<div class="end__carta">
+									<div class="carta__fl">
+										<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac2dffb4478b5eadc0a4561b0ab5d6032281838cd5065d36fb273bf4c47abeb35&amp;width=320&amp;height=250&amp;lang=ru_RU&amp;scroll=true"></script>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+						
+			</main>
+
+
+
+
+
+			 <footer class="footer" id="footer">
+
+
+				 <div class="footer__container _container">
+   <div class="footer__heading heading">
+							<!-- <img class="logo" src="img/logo/Logo.svg" alt="logo"> -->
+							<h3 class="footer__title">Ждём Вас</h3>
+							<h4 class="footer__subtitle">С понедельника по пятницу</h4>
+						 </div>	
+			
+    <div class="footer-row">
+        <div class="footer-left">
+            <h2>Часы работы</h2>
+            <p> <i class="fa fa-clock-o"></i> понедельник - пятница - 9:00 - 17:00</p>
+            <p> <i class="fa fa-clock-o"></i> суббота 9:00 - 16:00</p>
+        </div>
+        <div class="footer-right">
+            <h2>Связаться</h2>
+            <p># ул Даччная, д 18 Б<i class="fa fa-map-marker"></i> </p>
+            <p>@tut.by <i class="fa fa-envelope"></i> 
+            <p>+375 -- --- -- -- <i class="fa fa-phone"></i> </p>
+        </div>
+    </div>
+  
+
+    <div class="social-links">
+        <span>
+            <a href="" target="blank"> <i class="fa fa-telegram"></i></a>
+        </span>
+        <span>
+            <a href="" target="blank"> <i class="fa fa-instagram"></i></a>
+        </span>
+        <span>
+            <a href="" target="blank">
+                <i class="fa fa-ticket"></i></a>
+        </span>
+        <span>
+            <a href="" target="blank"><i class="fa fa-youtube-play"></i></a>
+        </span>
+    </div>
+			</footer> 
+		</div>
+		<script src="lib/jquery.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	</body>
+</html>
